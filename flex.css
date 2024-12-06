@@ -1,0 +1,32 @@
+.container{
+    height: 500px;
+    border: 3px blue solid;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction:row ;
+    /* flex-start center flex-end space-between space-evenly space-around */
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /*  */
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    margin: 10px;
+    border: dashed 2px green;
+} 
+
+.flex-container{
+    margin-top: 50px;
+    display:flex;
+    gap: 10px;
+}
+.box{
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    background-color: aquamarine;
+}

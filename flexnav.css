@@ -1,0 +1,62 @@
+* {
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+img{
+    width: 100px;
+    height: auto;
+    max-width: 300px;
+    top: 50px;
+    left: 50px;
+    padding: 3px;
+    margin: 5px;
+    border: 3px solid darkcyan;
+  }
+  .hero{
+    height:100vh;
+    background-image: url(../flex.html/pexels-tracehudson-2724664.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.hero .navbar{
+    display: flex;
+    justify-content: space-between;
+    height:80px;
+    background-color: paleturquoise;
+    align-items: center;
+    margin:auto
+}
+.hero .navbar nav ul{
+    display: flex;
+    list-style: none;
+    gap:10px;
+    text-align: center;
+}
+.hero .navbar  nav ul li a {
+    color: darkcyan;
+    text-decoration: none;
+    font-size: 24px;
+    font-style: italic;
+    margin-right: 80px;
+} 
+.hero .navbar nav ul li a:hover {
+    background-color:darkkhaki;
+    color: palevioletred;
+    border-bottom: 3px solid khaki;
+}
+.icons{
+    margin-left: 200px ;
+    display: flex;
+    gap:10px;
+
+
+}
+body{
+    background-color: aliceblue;
+}
+
+
+
+
